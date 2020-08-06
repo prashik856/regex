@@ -1,0 +1,20 @@
+Used for string manipulation.
+These are Domain Specific Language (DSL)
+
+Uses:
+-> Verifying that strings match a pattern (e.g. the string has a format of an email address).
+-> Perform substitutions in a string.
+
+DSL: Are highly specialized mini programming languages.
+Regular ezpressions are popular example, and SQL is another.
+Private domain-specific languages are often used for specific industrial purposes.
+
+
+For Python:
+Can be accessed in Pyhton using the re module, which is the part of the standard library.
+
+After regular expression is defined, re.match function can be used to determine whether it matches at the beginning of a string.
+If it does not, match returns an object representing the match, if not, it returns None.
+
+To avoid any consfusion while working with regular expressions, we would use raw strings as r"expression".
+Raw strings doesn't escape anything, which makes use of regular expressions easier.
